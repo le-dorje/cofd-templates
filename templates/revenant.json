@@ -1,0 +1,182 @@
+{
+  "player": "player@emailaddress.tld",
+  "type": "revenant",
+  "name": "name",
+  "mask": "mask",
+  "dirge": "dirge",
+  "concept": "concept",
+  "covenant": "covenant",
+
+  "mental_attributes": {
+    "intelligence": 1,
+    "wits": 1,
+    "resolve": 1
+  },
+  
+  "physical_attributes": {
+    "strength": 1,
+    "dexterity": 1,
+    "stamina": 1
+  },
+  
+  "social_attributes": {
+    "presence": 1,
+    "manipulation": 1,
+    "composure": 1
+  },
+  
+  "mental_skills": {
+    "academics": 0,
+    "computers": 0,
+    "crafts": 0,
+    "investigation": 0,
+    "medicine": 0,
+    "occult": 0,
+    "politics": 0,
+    "science": 0
+  },
+  
+  "physical_skills": {
+    "athletics": 0,
+    "brawl": 0,
+    "drive": 0,
+    "firearms": 0,
+    "larceny": 0,
+    "stealth": 0,
+    "survival": 0,
+    "weaponry": 0
+  },
+  
+  "social_skills": {
+    "animalken": 0,
+    "empathy": 0,
+    "intimidation": 0,
+    "persuasion": 0,
+    "socialize": 0,
+    "streetwise": 0,
+    "subterfuge": 0
+  },
+
+  "specialties": {
+    "attribute": "spec",
+    "skill": "spec"
+  },
+  
+  "willpower": 2,
+  "humanity": 1,
+  "bloodpotency": 1,
+  "vitae": 1,
+  "size": 5, 
+  "speed": 2,
+  "defense": 1,
+  "armor": 0,
+  "init": 2,
+  
+  "touchstone": ["touchstone1 desc", "touchstone2_desc"],
+  
+  "disciplines": {
+    "discipline_name1": 0,
+    "discipline_name2": 0
+  },
+  
+  "blood_sorcery": ["rite_1"],
+  
+  "merits": {
+    "merit_name": 0
+  },
+  
+  "languages": {
+    "english": "read, write, speak",
+    "spanish": "read, write, speak, native",
+    "nahuatl": "speak"
+  },
+  
+  "combat": {
+    "item_1_base_item": {
+      "description": "description that makes this unique",
+      "damage": 1,
+      "range": 1,
+      "clip": 1,
+      "init": 1,
+      "strength": 1,
+      "size": 1
+    },
+    
+    "item_2_base_item": {
+      "description": "description that makes this unique",
+      "damage": 1,
+      "range": 1,
+      "clip": 1,
+      "init": 1,
+      "strength": 1,
+      "size": 1
+    }
+  },
+  
+  "equipment": {
+    "item_1_base_item": {
+      "description": "description that makes this unique",
+      "durability": 1,
+      "structure": 1,
+      "size": 1,
+      "cost": 0
+    },
+    
+    "item_2_base_item": {
+      "description": "description that makes this unique",
+      "durability": 1,
+      "structure": 1,
+      "size": 1,
+      "cost": 0
+    }
+  },
+  
+  "other": {
+    "trait1": 0,
+    "trait2": 0
+  },
+  
+  "appearance": {
+    "age": 18,
+    "apparent": 18,
+    "sex": "other",
+    "race": "other",
+    "hair": "color",
+    "eyes": "color",
+    "height": "number unit",
+    "weight": "number unit",
+    "description": "player entered description"
+  },
+  
+  "beats": 0,
+  "experiences": 0,
+  "lifetime": 0,
+  
+  "beat_history": {
+    "beat_1533503197": {
+      "reason": "reason",
+      "status": "pending",
+      "date": 1533503197
+    }
+  },
+  
+  "conditions": {
+    "condition1": "source",
+    "condition2": "source"
+  },
+  
+  "tilts": ["tilt1", "tilt2"],
+  
+  "health_max": 7,
+  "health_string": "OOOOOO",
+  "heal_time": 1533503197,
+  
+  "aspirations": ["short", "short", "short", "medium", "long"],
+  
+  "background": "background",
+  
+  "player_notes": ["note1", "note2"],
+  
+  "st_notes": ["st_note1", "st_note2"]
+  
+}
