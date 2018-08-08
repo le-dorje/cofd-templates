@@ -83,6 +83,13 @@
     "contract_royal1": 0,
     "contract_royal2": 0
   },
+
+  "contracts_goblin": {
+    "contract_goblin1": 0,
+    "contract_goblin2": 0
+  },
+
+  "goblin_debt": 0,
   
   "merits": {
     "merit_name": 0
