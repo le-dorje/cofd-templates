@@ -52,6 +52,7 @@
   "social_skills": {
     "animalken": 0,
     "empathy": 0,
+    "expression": 0,
     "intimidation": 0,
     "persuasion": 0,
     "socialize": 0,
@@ -73,6 +74,9 @@
   "defense": 1,
   "armor": 0,
   "init": 2,
+
+  "regalia": "regalia",
+  "second_regalia": "second regalia",
   
   "contracts_common": {
     "contract_common1": 0,
