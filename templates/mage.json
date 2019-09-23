@@ -1,10 +1,12 @@
 {
   "name": "name",
-  "type": "revenant",
-  "mask": "mask",
-  "dirge": "dirge",
+  "type": "mage",
+  "virtue": "virtue",
+  "vice": "vice",
   "concept": "concept",
-  "covenant": "covenant",
+  "path": "path",
+  "order": "order",
+  "legacy": "legacy",
 
   "mental_attributes": {
     "intelligence": 1,
@@ -57,29 +59,28 @@
     "subterfuge": 0
   },
 
-  "specialties": {
-    "attribute": "spec",
-    "skill": "spec"
+  "arcana": {
+    "death": 0,
+    "fate": 0,
+    "forces": 0,
+    "life": 0,
+    "matter": 0,
+    "mind": 0,
+    "prime": 0,
+    "space": 0,
+    "spirit": 0,
+    "time": 0
   },
   
   "willpower": 2,
-  "humanity": 7,
-  "bloodpotency": 1,
-  "vitae": 1,
+  "gnosis": 1,
+  "mana": 0,
+  "wisdom": 7,
   "size": 5, 
   "speed": 2,
   "defense": 1,
   "armor": 0,
   "init": 2,
-  
-  "touchstone": ["touchstone1 desc", "touchstone2_desc"],
-  
-  "disciplines": {
-    "discipline_name1": 0,
-    "discipline_name2": 0
-  },
-  
-  "blood_sorcery": ["rite_1"],
   
   "merits": {
     "merit_name": 0
@@ -91,50 +92,6 @@
     "nahuatl": "speak"
   },
   
-  "combat": {
-    "item_1_base_item": {
-      "description": "description that makes this unique",
-      "damage": 1,
-      "range": 1,
-      "clip": 1,
-      "init": 1,
-      "strength": 1,
-      "size": 1
-    },
-    
-    "item_2_base_item": {
-      "description": "description that makes this unique",
-      "damage": 1,
-      "range": 1,
-      "clip": 1,
-      "init": 1,
-      "strength": 1,
-      "size": 1
-    }
-  },
-  
-  "equipment": {
-    "item_1_base_item": {
-      "description": "description that makes this unique",
-      "durability": 1,
-      "structure": 1,
-      "size": 1,
-      "cost": 0
-    },
-    
-    "item_2_base_item": {
-      "description": "description that makes this unique",
-      "durability": 1,
-      "structure": 1,
-      "size": 1,
-      "cost": 0
-    }
-  },
-  
-  "other": {
-    "trait1": 0,
-    "trait2": 0
-  },
   
   "appearance": {
     "age": 18,
@@ -145,20 +102,15 @@
     "eyes": "color",
     "height": "number unit",
     "weight": "number unit",
-    "description": "player entered description"
   },
   
+  "breaking_points": ["first", "second"],
   "beats": 0,
+  "arcane_beats": 0,
   "experiences": 0,
+  "arcane_experiences": 0,
   "lifetime": 0,
-  
-  "beat_history": {
-    "beat_1533503197": {
-      "reason": "reason",
-      "status": "pending",
-      "date": 1533503197
-    }
-  },
+  "arcane_lifetime": 0,
   
   "conditions": {
     "condition1": "source",
@@ -166,12 +118,33 @@
   },
   
   "tilts": ["tilt1", "tilt2"],
+
+  "nimbus_tilt": "nimbus_tilt",
+
+  "attainments": ["attainment", "attainment"],
+
+  "dedicated_magical_tool": "dedicated_magical_tool",
+
+  "praxes": ["praxes"],
+
+  "rotes": {
+    "name": {
+      "level": 1,
+      "arcanum": "arcanum",
+      "skill": "skill",
+      "creator": "creator"
+    }
+  },
   
   "health_max": 7,
   "health_string": "OOOOOO",
   "heal_time": 1533503197,
   
+  "active_spells": "active_spells",
+  
   "aspirations": ["short", "short", "short", "medium", "long"],
+
+  "obsessions": ["obsession"],
   
   "background": "background",
   

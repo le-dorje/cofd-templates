@@ -1,7 +1,6 @@
 {
-  "player": "player@emailaddress.tld",
-  "type": "vampire",
   "name": "name",
+  "type": "vampire",
   "mask": "mask",
   "dirge": "dirge",
   "concept": "concept",

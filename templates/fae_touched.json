@@ -1,7 +1,6 @@
 {
-  "player": "player@emailaddress.tld",
-  "type": "fae-touched",
   "name": "name",
+  "type": "fae-touched",
   "virtue": "virtue",
   "vice": "vice",
   "concept": "concept",

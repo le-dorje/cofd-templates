@@ -1,7 +1,6 @@
 {
-  "player": "player@emailaddress.tld",
-  "type": "mortal",
   "name": "name",
+  "type": "mortal",
   "virtue": "virtue",
   "vice": "vice",
   "concept": "concept",

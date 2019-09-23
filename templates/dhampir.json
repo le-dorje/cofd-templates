@@ -1,7 +1,6 @@
 {
-  "player": "player@emailaddress.tld",
-  "type": "dhampir",
   "name": "name",
+  "type": "dhampir",
   "virtue": "mask",
   "vice": "dirge",
   "concept": "concept",

@@ -1,7 +1,6 @@
 {
-  "player": "player@emailaddress.tld",
-  "type": "changeling",
   "name": "name",
+  "type": "changeling",
   "needle": "needle",
   "thread": "thread",
   "concept": "concept",

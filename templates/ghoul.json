@@ -1,7 +1,6 @@
 {
-  "player": "player@emailaddress.tld",
-  "type": "ghoul",
   "name": "name",
+  "type": "ghoul",
   "virtue": "virtue",
   "vice": "vice",
   "concept": "concept",
